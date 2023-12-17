@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import ActiveSectionContextProvider from './contexts/ActiveSessionContext';
 
 import About from './components/About';
+import Experiences from './components/Experiences';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
@@ -21,6 +22,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 				<About />
 				<Projects />
 				<Skills />
+				<Experiences />
 			</main>
 			<Footer />
 		</ActiveSectionContextProvider>

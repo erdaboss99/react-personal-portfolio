@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom/client';
 import ActiveSectionContextProvider from './contexts/ActiveSessionContext';
 
 import About from './components/About';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
 
@@ -17,6 +18,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 				<Home />
 				<About />
 			</main>
+			<Footer />
 		</ActiveSectionContextProvider>
 	</React.StrictMode>,
 );

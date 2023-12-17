@@ -8,6 +8,7 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Home from './components/Home';
 import Projects from './components/Projects';
+import Skills from './components/Skills';
 
 import './styles/global.css';
 
@@ -19,6 +20,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 				<Home />
 				<About />
 				<Projects />
+				<Skills />
 			</main>
 			<Footer />
 		</ActiveSectionContextProvider>

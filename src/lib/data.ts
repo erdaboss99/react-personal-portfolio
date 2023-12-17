@@ -28,3 +28,18 @@ export const PROJECTS_DATA = [
 		deployUrl: 'https://thesis.erdelyiroland.com',
 	},
 ] as const;
+
+export const SKILLS_DATA = [
+	'HTML',
+	'CSS',
+	'JavaScript',
+	'TypeScript',
+	'Node.js',
+	'React',
+	'Next.js',
+	'Playwright',
+	'Git',
+	'GitHub Actions',
+	'Linux',
+	'Python',
+] as const;

@@ -3,8 +3,9 @@ import ReactDOM from 'react-dom/client';
 
 import ActiveSectionContextProvider from './contexts/ActiveSessionContext';
 
-import Index from './Index';
+import About from './components/About';
 import Header from './components/Header';
+import Home from './components/Home';
 
 import './styles/global.css';
 
@@ -12,7 +13,10 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
 		<ActiveSectionContextProvider>
 			<Header />
-			<Index />
+			<main className='flex h-full flex-col items-center px-4'>
+				<Home />
+				<About />
+			</main>
 		</ActiveSectionContextProvider>
 	</React.StrictMode>,
 );

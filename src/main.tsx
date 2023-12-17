@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import App from './Index.tsx';
+import ActiveSectionContextProvider from './contexts/ActiveSessionContext';
+
+import Index from './Index';
+import Header from './components/Header';
 
 import './styles/global.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
 	<React.StrictMode>
-		<App />
+		<ActiveSectionContextProvider>
+			<Header />
+			<Index />
+		</ActiveSectionContextProvider>
 	</React.StrictMode>,
 );

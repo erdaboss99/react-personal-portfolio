@@ -1,5 +1,5 @@
 const Index = () => {
-	return <h1 className='font-bold'>Test</h1>;
+	return <main className='flex h-full flex-col items-center px-4'></main>;
 };
 
 export default Index;

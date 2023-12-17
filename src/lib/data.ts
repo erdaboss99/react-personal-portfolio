@@ -3,6 +3,7 @@ import React from 'react';
 import { Briefcase, GraduationCap, PhoneIncoming, Rocket } from 'lucide-react';
 
 import deva_appointment from '../assets/deva_appointment.png';
+import personal_website from '../assets/personal_website.png';
 
 export const LINKS = [
 	{ name: 'Home', anchor: '#home' },
@@ -13,6 +14,15 @@ export const LINKS = [
 ] as const;
 
 export const PROJECTS_DATA = [
+	{
+		title: 'Personal Website',
+		description:
+			'I created my personal portfolio website to showcase my projects and skills. This website has been developed using React, styled seamlessly using TailwindCSS, and enhanced with smooth animations powered by Framer-Motion. I utilized Vite to bundle the application and deployed it via Vercel.',
+		tags: ['React', 'TailwindCSS', 'Vite', 'Framer-Motion', 'Vercel'],
+		imageUrl: personal_website,
+		imageAlt: 'Screenshot of the Personal Portfolio Website',
+		deployUrl: 'https://erdelyiroland.com',
+	},
 	{
 		title: 'Deva Appointment',
 		description:

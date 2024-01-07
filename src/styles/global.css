@@ -66,8 +66,7 @@
 }
 
 @media only screen and (min-width: 1170px) {
-	.vertical-timeline.vertical-timeline--two-columns
-		.vertical-timeline-element:not(:last-child)::before {
+	.vertical-timeline.vertical-timeline--two-columns .vertical-timeline-element:not(:last-child)::before {
 		left: 50%;
 		top: 62px;
 		margin-left: -2px;

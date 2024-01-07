@@ -55,9 +55,7 @@ const Experience = () => {
 									: '3px solid #111827',
 							}}>
 							<h3 className='font-semibold capitalize'>{item.title}</h3>
-							<p className='!mt-1 font-normal'>
-								{item.facility + ' - ' + item.location}
-							</p>
+							<p className='!mt-1 font-normal'>{item.facility + ' - ' + item.location}</p>
 							<p className='!mt-4 !font-normal text-secondary-light dark:text-secondary-dark'>
 								{item.description}
 							</p>
